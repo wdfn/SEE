@@ -1,4 +1,0 @@
-SEE
-===
-
-Social Engaged Engineers
