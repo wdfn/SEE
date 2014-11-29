@@ -30,4 +30,8 @@ def getinvolved(request):
 	return HttpResponse(loader.get_template("SEEapp/getinvolved.html").render(Context()))
 
 def team(request):
-	return HttpResponse(loader.get_template("SEEapp/page-typography.html").render(Context()))
+	return HttpResponse(loader.get_template("SEEapp/team.html").render(Context()))
+
+def single(request):
+	return HttpResponse(loader.get_template("SEEapp/single.html").render(Context()))
+
